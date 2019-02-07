@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.3*%
+%TF.CreationDate,2018-11-08T14:32:20Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Jagrut Dave <jagrutdave.12.ee@iite.indusuniversity.in>*%
+%TJ.B_ID,timer_switch*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,44.120000*%
+%TJ.B_Size_Y,38.090000*%
+M02*

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting keepoldvectorfont="yes"/>
+  <setting verticaltext="up"/>
+ </settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+ <layers>
+  <layer visible="yes" color="4" fill="1" number="1" active="yes" name="Top"/>
+  <layer visible="yes" color="1" fill="1" number="16" active="yes" name="Bottom"/>
+  <layer visible="yes" color="2" fill="1" number="17" active="yes" name="Pads"/>
+  <layer visible="yes" color="2" fill="1" number="18" active="yes" name="Vias"/>
+  <layer visible="yes" color="6" fill="1" number="19" active="yes" name="Unrouted"/>
+  <layer visible="yes" color="24" fill="1" number="20" active="yes" name="Dimension"/>
+  <layer visible="yes" color="7" fill="1" number="21" active="yes" name="tPlace"/>
+  <layer visible="yes" color="7" fill="1" number="22" active="yes" name="bPlace"/>
+  <layer visible="yes" color="15" fill="1" number="23" active="yes" name="tOrigins"/>
+  <layer visible="yes" color="15" fill="1" number="24" active="yes" name="bOrigins"/>
+  <layer visible="yes" color="7" fill="1" number="25" active="yes" name="tNames"/>
+  <layer visible="yes" color="7" fill="1" number="26" active="yes" name="bNames"/>
+  <layer visible="yes" color="7" fill="1" number="27" active="yes" name="tValues"/>
+  <layer visible="yes" color="7" fill="1" number="28" active="yes" name="bValues"/>
+  <layer visible="no" color="7" fill="3" number="29" active="yes" name="tStop"/>
+  <layer visible="no" color="7" fill="6" number="30" active="yes" name="bStop"/>
+  <layer visible="no" color="7" fill="4" number="31" active="yes" name="tCream"/>
+  <layer visible="no" color="7" fill="5" number="32" active="yes" name="bCream"/>
+  <layer visible="no" color="6" fill="3" number="33" active="yes" name="tFinish"/>
+  <layer visible="no" color="6" fill="6" number="34" active="yes" name="bFinish"/>
+  <layer visible="no" color="7" fill="4" number="35" active="yes" name="tGlue"/>
+  <layer visible="no" color="7" fill="5" number="36" active="yes" name="bGlue"/>
+  <layer visible="no" color="7" fill="1" number="37" active="yes" name="tTest"/>
+  <layer visible="no" color="7" fill="1" number="38" active="yes" name="bTest"/>
+  <layer visible="yes" color="4" fill="11" number="39" active="yes" name="tKeepout"/>
+  <layer visible="yes" color="1" fill="11" number="40" active="yes" name="bKeepout"/>
+  <layer visible="yes" color="4" fill="10" number="41" active="yes" name="tRestrict"/>
+  <layer visible="yes" color="1" fill="10" number="42" active="yes" name="bRestrict"/>
+  <layer visible="yes" color="2" fill="10" number="43" active="yes" name="vRestrict"/>
+  <layer visible="no" color="7" fill="1" number="44" active="yes" name="Drills"/>
+  <layer visible="no" color="7" fill="1" number="45" active="yes" name="Holes"/>
+  <layer visible="no" color="3" fill="1" number="46" active="yes" name="Milling"/>
+  <layer visible="no" color="7" fill="1" number="47" active="yes" name="Measures"/>
+  <layer visible="yes" color="7" fill="1" number="48" active="yes" name="Document"/>
+  <layer visible="yes" color="7" fill="1" number="49" active="yes" name="Reference"/>
+  <layer visible="yes" color="7" fill="1" number="51" active="yes" name="tDocu"/>
+  <layer visible="yes" color="7" fill="1" number="52" active="yes" name="bDocu"/>
+  <layer visible="yes" color="9" fill="1" number="88" active="yes" name="SimResults"/>
+  <layer visible="yes" color="9" fill="1" number="89" active="yes" name="SimProbes"/>
+  <layer visible="yes" color="5" fill="1" number="90" active="yes" name="Modules"/>
+  <layer visible="yes" color="2" fill="1" number="91" active="yes" name="Nets"/>
+  <layer visible="yes" color="1" fill="1" number="92" active="yes" name="Busses"/>
+  <layer visible="no" color="2" fill="1" number="93" active="yes" name="Pins"/>
+  <layer visible="yes" color="4" fill="1" number="94" active="yes" name="Symbols"/>
+  <layer visible="yes" color="7" fill="1" number="95" active="yes" name="Names"/>
+  <layer visible="yes" color="7" fill="1" number="96" active="yes" name="Values"/>
+  <layer visible="yes" color="7" fill="1" number="97" active="yes" name="Info"/>
+  <layer visible="yes" color="6" fill="1" number="98" active="yes" name="Guide"/>
+ </layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="DIP1016W53P254L3467H457Q28N">
+  <description>&lt;b>28P3&lt;/b>&lt;br>
+</description>
+  <pad x="-5.08" y="16.51" drill="0.733" shape="square" name="1" diameter="1.133"/>
+  <pad x="-5.08" y="13.97" drill="0.733" name="2" diameter="1.133"/>
+  <pad x="-5.08" y="11.43" drill="0.733" name="3" diameter="1.133"/>
+  <pad x="-5.08" y="8.89" drill="0.733" name="4" diameter="1.133"/>
+  <pad x="-5.08" y="6.35" drill="0.733" name="5" diameter="1.133"/>
+  <pad x="-5.08" y="3.81" drill="0.733" name="6" diameter="1.133"/>
+  <pad x="-5.08" y="1.27" drill="0.733" name="7" diameter="1.133"/>
+  <pad x="-5.08" y="-1.27" drill="0.733" name="8" diameter="1.133"/>
+  <pad x="-5.08" y="-3.81" drill="0.733" name="9" diameter="1.133"/>
+  <pad x="-5.08" y="-6.35" drill="0.733" name="10" diameter="1.133"/>
+  <pad x="-5.08" y="-8.89" drill="0.733" name="11" diameter="1.133"/>
+  <pad x="-5.08" y="-11.43" drill="0.733" name="12" diameter="1.133"/>
+  <pad x="-5.08" y="-13.97" drill="0.733" name="13" diameter="1.133"/>
+  <pad x="-5.08" y="-16.51" drill="0.733" name="14" diameter="1.133"/>
+  <pad x="5.08" y="-16.51" drill="0.733" name="15" diameter="1.133"/>
+  <pad x="5.08" y="-13.97" drill="0.733" name="16" diameter="1.133"/>
+  <pad x="5.08" y="-11.43" drill="0.733" name="17" diameter="1.133"/>
+  <pad x="5.08" y="-8.89" drill="0.733" name="18" diameter="1.133"/>
+  <pad x="5.08" y="-6.35" drill="0.733" name="19" diameter="1.133"/>
+  <pad x="5.08" y="-3.81" drill="0.733" name="20" diameter="1.133"/>
+  <pad x="5.08" y="-1.27" drill="0.733" name="21" diameter="1.133"/>
+  <pad x="5.08" y="1.27" drill="0.733" name="22" diameter="1.133"/>
+  <pad x="5.08" y="3.81" drill="0.733" name="23" diameter="1.133"/>
+  <pad x="5.08" y="6.35" drill="0.733" name="24" diameter="1.133"/>
+  <pad x="5.08" y="8.89" drill="0.733" name="25" diameter="1.133"/>
+  <pad x="5.08" y="11.43" drill="0.733" name="26" diameter="1.133"/>
+  <pad x="5.08" y="13.97" drill="0.733" name="27" diameter="1.133"/>
+  <pad x="5.08" y="16.51" drill="0.733" name="28" diameter="1.133"/>
+  <text size="1.27" x="0" y="0" layer="25" align="center">>NAME</text>
+  <text size="1.27" x="0" y="0" layer="27" align="center">>VALUE</text>
+  <wire x1="-5.896" y1="17.649" x2="5.896" width="0.05" layer="51" y2="17.649"/>
+  <wire x1="5.896" y1="17.649" x2="5.896" width="0.05" layer="51" y2="-17.649"/>
+  <wire x1="5.896" y1="-17.649" x2="-5.896" width="0.05" layer="51" y2="-17.649"/>
+  <wire x1="-5.896" y1="-17.649" x2="-5.896" width="0.05" layer="51" y2="17.649"/>
+  <wire x1="-3.746" y1="17.399" x2="3.746" width="0.1" layer="51" y2="17.399"/>
+  <wire x1="3.746" y1="17.399" x2="3.746" width="0.1" layer="51" y2="-17.399"/>
+  <wire x1="3.746" y1="-17.399" x2="-3.746" width="0.1" layer="51" y2="-17.399"/>
+  <wire x1="-3.746" y1="-17.399" x2="-3.746" width="0.1" layer="51" y2="17.399"/>
+  <wire x1="-3.746" y1="16.129" x2="-2.476" width="0.1" layer="51" y2="17.399"/>
+  <wire x1="-5.646" y1="17.399" x2="3.746" width="0.2" layer="21" y2="17.399"/>
+  <wire x1="-3.746" y1="-17.399" x2="3.746" width="0.2" layer="21" y2="-17.399"/>
+ </package>
+ <package name="HC/49US_(AT49)PTH">
+  <description>&lt;b>HC/49US_(AT49)PTH&lt;/b>&lt;br>
+</description>
+  <pad x="-2.44" y="0" drill="0.66" name="1" diameter="1.1"/>
+  <pad x="2.44" y="0" drill="0.66" name="2" diameter="1.1"/>
+  <text size="1.27" x="-1.048" y="0.358" layer="27" align="center">>VALUE</text>
+  <text size="1.27" x="-1.048" y="0.358" layer="25" align="center">>NAME</text>
+  <wire x1="-7.5" y1="4" x2="7.5" width="0.05" layer="51" y2="4"/>
+  <wire x1="7.5" y1="4" x2="7.5" width="0.05" layer="51" y2="-4"/>
+  <wire x1="7.5" y1="-4" x2="-7.5" width="0.05" layer="51" y2="-4"/>
+  <wire x1="-7.5" y1="-4" x2="-7.5" width="0.05" layer="51" y2="4"/>
+  <wire x1="-3.75" y1="2.5" x2="3.75" width="0.1" layer="21" y2="2.5"/>
+  <wire x1="-3.75" y1="-2.5" x2="3.75" width="0.1" layer="21" y2="-2.5"/>
+  <wire x1="3.75" y1="-2.5" x2="3.75" curve="161.8" width="0.1" layer="21" y2="2.5"/>
+  <wire x1="-3.75" y1="2.5" x2="-3.75" curve="161.9" width="0.1" layer="21" y2="-2.5"/>
+  <wire x1="-3.75" y1="2.5" x2="3.75" width="0.2" layer="51" y2="2.5"/>
+  <wire x1="3.75" y1="2.5" x2="3.75" curve="-161.8" width="0.2" layer="51" y2="-2.5"/>
+  <wire x1="3.75" y1="-2.5" x2="-3.75" width="0.2" layer="51" y2="-2.5"/>
+  <wire x1="-3.75" y1="-2.5" x2="-3.75" curve="-161.9" width="0.2" layer="51" y2="2.5"/>
+ </package>
+ <package name="HDRV2W64P0X254_1X2_508X254X864">
+  <description>&lt;b>M20-9990246&lt;/b>&lt;br>&#xd;
+</description>
+  <pad x="0" y="0" drill="1.1" shape="square" name="1" diameter="1.65"/>
+  <pad x="2.54" y="0" drill="1.1" name="2" diameter="1.65"/>
+  <text size="1.27" rot="R0" x="0" y="0" layer="25" align="center">>NAME</text>
+  <text size="1.27" rot="R0" x="0" y="0" layer="27" align="center">>VALUE</text>
+  <wire x1="-1.695" y1="1.52" x2="4.235" width="0.05" layer="51" y2="1.52"/>
+  <wire x1="4.235" y1="1.52" x2="4.235" width="0.05" layer="51" y2="-1.52"/>
+  <wire x1="4.235" y1="-1.52" x2="-1.695" width="0.05" layer="51" y2="-1.52"/>
+  <wire x1="-1.695" y1="-1.52" x2="-1.695" width="0.05" layer="51" y2="1.52"/>
+  <wire x1="-1.445" y1="1.27" x2="3.985" width="0.1" layer="51" y2="1.27"/>
+  <wire x1="3.985" y1="1.27" x2="3.985" width="0.1" layer="51" y2="-1.27"/>
+  <wire x1="3.985" y1="-1.27" x2="-1.445" width="0.1" layer="51" y2="-1.27"/>
+  <wire x1="-1.445" y1="-1.27" x2="-1.445" width="0.1" layer="51" y2="1.27"/>
+  <wire x1="0" y1="1.27" x2="3.985" width="0.2" layer="21" y2="1.27"/>
+  <wire x1="3.985" y1="1.27" x2="3.985" width="0.2" layer="21" y2="-1.27"/>
+  <wire x1="3.985" y1="-1.27" x2="-1.445" width="0.2" layer="21" y2="-1.27"/>
+  <wire x1="-1.445" y1="-1.27" x2="-1.445" width="0.2" layer="21" y2="0"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="ATMEGA8L-8PU">
+  <wire x1="5.08" y1="2.54" x2="53.34" width="0.254" layer="94" y2="2.54"/>
+  <wire x1="53.34" y1="-35.56" x2="53.34" width="0.254" layer="94" y2="2.54"/>
+  <wire x1="53.34" y1="-35.56" x2="5.08" width="0.254" layer="94" y2="-35.56"/>
+  <wire x1="5.08" y1="2.54" x2="5.08" width="0.254" layer="94" y2="-35.56"/>
+  <text size="1.778" x="54.61" y="7.62" layer="95" align="center-left">>NAME</text>
+  <text size="1.778" x="54.61" y="5.08" layer="96" align="center-left">>VALUE</text>
+  <pin x="0" y="0" length="middle" name="PC6_(!RESET)"/>
+  <pin x="0" y="-2.54" length="middle" name="PD0_(RXD)"/>
+  <pin x="0" y="-5.08" length="middle" name="PD1_(TXD)"/>
+  <pin x="0" y="-7.62" length="middle" name="PD2_(INT0)"/>
+  <pin x="0" y="-10.16" length="middle" name="PD3_(INT1)"/>
+  <pin x="0" y="-12.7" length="middle" name="PD4_(XCK/T0)"/>
+  <pin x="0" y="-15.24" length="middle" name="VCC"/>
+  <pin x="0" y="-17.78" length="middle" name="GND_1"/>
+  <pin x="0" y="-20.32" length="middle" name="PB6_(XTAL1/TOSC1)"/>
+  <pin x="0" y="-22.86" length="middle" name="PB7_(XTAL2/TOSC2)"/>
+  <pin x="0" y="-25.4" length="middle" name="PD5_(T1)"/>
+  <pin x="0" y="-27.94" length="middle" name="PD6_(AIN0)"/>
+  <pin x="0" y="-30.48" length="middle" name="PD7_(AIN1)"/>
+  <pin x="0" y="-33.02" length="middle" name="PB0_(ICP1)"/>
+  <pin rot="R180" x="58.42" y="0" length="middle" name="PC5_(ADC5/SCL)"/>
+  <pin rot="R180" x="58.42" y="-2.54" length="middle" name="PC4_(ADC4/SDA)"/>
+  <pin rot="R180" x="58.42" y="-5.08" length="middle" name="PC3_(ADC3)"/>
+  <pin rot="R180" x="58.42" y="-7.62" length="middle" name="PC2_(ADC2)"/>
+  <pin rot="R180" x="58.42" y="-10.16" length="middle" name="PC1_(ADC1)"/>
+  <pin rot="R180" x="58.42" y="-12.7" length="middle" name="PC0_(ADC0)"/>
+  <pin rot="R180" x="58.42" y="-15.24" length="middle" name="GND_2"/>
+  <pin rot="R180" x="58.42" y="-17.78" length="middle" name="AREF"/>
+  <pin rot="R180" x="58.42" y="-20.32" length="middle" name="AVCC"/>
+  <pin rot="R180" x="58.42" y="-22.86" length="middle" name="PB5_(SCK)"/>
+  <pin rot="R180" x="58.42" y="-25.4" length="middle" name="PB4_(MISO)"/>
+  <pin rot="R180" x="58.42" y="-27.94" length="middle" name="PB3_(MOSI/OC2)"/>
+  <pin rot="R180" x="58.42" y="-30.48" length="middle" name="PB2_(!SS!/OC1B)"/>
+  <pin rot="R180" x="58.42" y="-33.02" length="middle" name="PB1_(OC1A)"/>
+ </symbol>
+ <symbol name="ABL-20.000MHZ-B2">
+  <wire x1="5.08" y1="1.27" x2="10.16" width="0.254" layer="94" y2="1.27"/>
+  <wire x1="10.16" y1="-1.27" x2="10.16" width="0.254" layer="94" y2="1.27"/>
+  <wire x1="10.16" y1="-1.27" x2="5.08" width="0.254" layer="94" y2="-1.27"/>
+  <wire x1="5.08" y1="1.27" x2="5.08" width="0.254" layer="94" y2="-1.27"/>
+  <text size="1.778" x="16.51" y="7.62" layer="95" align="center-left">>NAME</text>
+  <text size="1.778" x="16.51" y="5.08" layer="96" align="center-left">>VALUE</text>
+  <pin x="0" y="0" length="middle" name="1"/>
+  <pin rot="R180" x="15.24" y="0" length="middle" name="2"/>
+ </symbol>
+ <symbol name="M20-9990246">
+  <wire x1="5.08" y1="2.54" x2="15.24" width="0.254" layer="94" y2="2.54"/>
+  <wire x1="15.24" y1="-5.08" x2="15.24" width="0.254" layer="94" y2="2.54"/>
+  <wire x1="15.24" y1="-5.08" x2="5.08" width="0.254" layer="94" y2="-5.08"/>
+  <wire x1="5.08" y1="2.54" x2="5.08" width="0.254" layer="94" y2="-5.08"/>
+  <text size="1.778" x="16.51" y="7.62" layer="95" align="center-left">>NAME</text>
+  <text size="1.778" x="16.51" y="5.08" layer="96" align="center-left">>VALUE</text>
+  <pin direction="io" rot="R0" x="0" y="0" length="middle" name="1"/>
+  <pin direction="io" rot="R0" x="0" y="-2.54" length="middle" name="2"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset prefix="IC" name="ATMEGA8L-8PU">
+  <description>&lt;b>MICROCHIP - ATMEGA8L-8PU - MCU, 8BIT, ATMEGA, 8MHZ, DIP-28&lt;/b>&lt;p>
+Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2486-8-bit-AVR-microcontroller-ATmega8_L_datasheet.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="0" y="0" symbol="ATMEGA8L-8PU" name="G$1"/>
+  </gates>
+  <devices>
+   <device name="" package="DIP1016W53P254L3467H457Q28N">
+    <connects>
+     <connect gate="G$1" pad="21" pin="AREF"/>
+     <connect gate="G$1" pad="20" pin="AVCC"/>
+     <connect gate="G$1" pad="8" pin="GND_1"/>
+     <connect gate="G$1" pad="22" pin="GND_2"/>
+     <connect gate="G$1" pad="14" pin="PB0_(ICP1)"/>
+     <connect gate="G$1" pad="15" pin="PB1_(OC1A)"/>
+     <connect gate="G$1" pad="16" pin="PB2_(!SS!/OC1B)"/>
+     <connect gate="G$1" pad="17" pin="PB3_(MOSI/OC2)"/>
+     <connect gate="G$1" pad="18" pin="PB4_(MISO)"/>
+     <connect gate="G$1" pad="19" pin="PB5_(SCK)"/>
+     <connect gate="G$1" pad="9" pin="PB6_(XTAL1/TOSC1)"/>
+     <connect gate="G$1" pad="10" pin="PB7_(XTAL2/TOSC2)"/>
+     <connect gate="G$1" pad="23" pin="PC0_(ADC0)"/>
+     <connect gate="G$1" pad="24" pin="PC1_(ADC1)"/>
+     <connect gate="G$1" pad="25" pin="PC2_(ADC2)"/>
+     <connect gate="G$1" pad="26" pin="PC3_(ADC3)"/>
+     <connect gate="G$1" pad="27" pin="PC4_(ADC4/SDA)"/>
+     <connect gate="G$1" pad="28" pin="PC5_(ADC5/SCL)"/>
+     <connect gate="G$1" pad="1" pin="PC6_(!RESET)"/>
+     <connect gate="G$1" pad="2" pin="PD0_(RXD)"/>
+     <connect gate="G$1" pad="3" pin="PD1_(TXD)"/>
+     <connect gate="G$1" pad="4" pin="PD2_(INT0)"/>
+     <connect gate="G$1" pad="5" pin="PD3_(INT1)"/>
+     <connect gate="G$1" pad="6" pin="PD4_(XCK/T0)"/>
+     <connect gate="G$1" pad="11" pin="PD5_(T1)"/>
+     <connect gate="G$1" pad="12" pin="PD6_(AIN0)"/>
+     <connect gate="G$1" pad="13" pin="PD7_(AIN1)"/>
+     <connect gate="G$1" pad="7" pin="VCC"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" value="ATMEGA8L-8PU" name="ARROW_PART_NUMBER"/>
+      <attribute constant="no" value="https://www.arrow.com/en/products/atmega8l-8pu/microchip-technology" name="ARROW_PRICE-STOCK"/>
+      <attribute constant="no" value="MICROCHIP - ATMEGA8L-8PU - MCU, 8BIT, ATMEGA, 8MHZ, DIP-28" name="DESCRIPTION"/>
+      <attribute constant="no" value="4.572mm" name="HEIGHT"/>
+      <attribute constant="no" value="Microchip" name="MANUFACTURER_NAME"/>
+      <attribute constant="no" value="ATMEGA8L-8PU" name="MANUFACTURER_PART_NUMBER"/>
+      <attribute constant="no" value="1310375" name="RS_PART_NUMBER"/>
+      <attribute constant="no" value="http://uk.rs-online.com/web/p/products/1310375" name="RS_PRICE-STOCK"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset prefix="Y" name="ABL-20.000MHZ-B2">
+  <description>&lt;b>ABRACON - ABL-20.000MHZ-B2 - CRYSTAL, 20MHZ, 18PF CL, HC49/4H&lt;/b>&lt;p>
+Source: &lt;a href="http://www.abracon.com/Resonators/ABL.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="0" y="0" symbol="ABL-20.000MHZ-B2" name="G$1"/>
+  </gates>
+  <devices>
+   <device name="" package="HC/49US_(AT49)PTH">
+    <connects>
+     <connect gate="G$1" pad="1" pin="1"/>
+     <connect gate="G$1" pad="2" pin="2"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" value="ABL-20.000MHZ-B2" name="ARROW_PART_NUMBER"/>
+      <attribute constant="no" value="https://www.arrow.com/en/products/abl-20.000mhz-b2/abracon" name="ARROW_PRICE-STOCK"/>
+      <attribute constant="no" value="ABRACON - ABL-20.000MHZ-B2 - CRYSTAL, 20MHZ, 18PF CL, HC49/4H" name="DESCRIPTION"/>
+      <attribute constant="no" value="mm" name="HEIGHT"/>
+      <attribute constant="no" value="ABRACON" name="MANUFACTURER_NAME"/>
+      <attribute constant="no" value="ABL-20.000MHZ-B2" name="MANUFACTURER_PART_NUMBER"/>
+      <attribute constant="no" value="1710202" name="RS_PART_NUMBER"/>
+      <attribute constant="no" value="http://uk.rs-online.com/web/p/products/1710202" name="RS_PRICE-STOCK"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset prefix="J" name="M20-9990246">
+  <description>&lt;b>HARWIN  M20-9990246.  Board-To-Board Connector, Straight, 2.54 mm, 2 Contacts, Header, M20 Series, Through Hole&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-999.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="0" y="0" symbol="M20-9990246" name="G$1"/>
+  </gates>
+  <devices>
+   <device name="" package="HDRV2W64P0X254_1X2_508X254X864">
+    <connects>
+     <connect gate="G$1" pad="1" pin="1"/>
+     <connect gate="G$1" pad="2" pin="2"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" value="HARWIN" name="Manufacturer_Name"/>
+      <attribute constant="no" value="M20-9990246" name="Manufacturer_Part_Number"/>
+      <attribute constant="no" value="1730800" name="RS_Part_Number"/>
+      <attribute constant="no" value="http://uk.rs-online.com/web/p/products/1730800" name="RS_Price-Stock"/>
+      <attribute constant="no" value="R1052478" name="Allied_Number"/>
+      <attribute constant="no" value="https://www.alliedelec.com/harwin-m20-9990246/R1052478/" name="Allied_Price-Stock"/>
+      <attribute constant="no" value="M20-9990246" name="Arrow_Part_Number"/>
+      <attribute constant="no" value="http://uk.rs-online.com/web/p/products/1730800" name="Arrow_Price-Stock"/>
+      <attribute constant="no" value="HARWIN  M20-9990246.  Board-To-Board Connector, Straight, 2.54 mm, 2 Contacts, Header, M20 Series, Through Hole" name="Description"/>
+      <attribute constant="no" value="8.64mm" name="Height"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
